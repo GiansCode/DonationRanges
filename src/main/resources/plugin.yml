@@ -1,0 +1,5 @@
+name: DonationRanges
+version: '${project.version}'
+main: io.alerium.donationranges.DonationRangesPlugin
+api-version: 1.17
+softdepend: [PlaceholderAPI]

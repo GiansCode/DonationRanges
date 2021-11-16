@@ -1,0 +1,24 @@
+mysql:
+  hostname: localhost
+  username: root
+  password: ''
+  database: 'donationranges'
+  port: 3306
+
+messages:
+  errorLoadingData: "<red>An error occurred while loading your data."
+  commands:
+    add:
+      error: "<red>An error occurred, please check the logs."
+      success: "<green>Donation amount updated."
+    remove:
+      error: "<red>An error occurred, please check the logs."
+      success: "<green>Donation amount updated."
+    set:
+      error: "<red>An error occurred, please check the logs."
+      success: "<green>Donation amount updated."
+    info: "<gold>%player_name% has donated %amount%."
+
+ranges:
+  10:
+    - '[MESSAGE] You donated 10$!'
